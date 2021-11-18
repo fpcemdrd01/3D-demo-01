@@ -26,7 +26,7 @@ function init() {
   camera.lookAt(scene.position)
 
   // 建立光源
-  let pointLight = new THREE.PointLight(0x0000ff)
+  let pointLight = new THREE.PointLight(0x00ff00)
   pointLight.position.set(10, 10, -10)
   scene.add(pointLight)
 
