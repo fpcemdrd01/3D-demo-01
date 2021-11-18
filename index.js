@@ -9,7 +9,7 @@ function init() {
   // 建立渲染器
   renderer = new THREE.WebGLRenderer()
   renderer.setSize(window.innerWidth, window.innerHeight) // 場景大小
-  renderer.setClearColor(0xeeee00, 1.0) // 預設背景顏色
+  renderer.setClearColor(0x00fe00, 1.0) // 預設背景顏色
   renderer.shadowMap.enable = true // 陰影效果
 
   // 將渲染器的 DOM 綁到網頁上
@@ -26,7 +26,7 @@ function init() {
   camera.lookAt(scene.position)
 
   // 建立光源
-  let pointLight = new THREE.PointLight(0x00fe00)
+  let pointLight = new THREE.PointLight(0x00ffff)
   pointLight.position.set(10, 10, -10)
   scene.add(pointLight)
 
