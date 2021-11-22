@@ -1,4 +1,4 @@
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader" 
+//import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader" 
 import { OrbitControls } from '../lib/OrbitControls.js'
 
 let renderer, scene, camera
