@@ -119,7 +119,7 @@ function init() {
 
   // 簡單的地板
   const planeGeometry = new THREE.PlaneGeometry(60, 60)
-  const planeMaterial = new THREE.MeshLambertMaterial({ color: 0x0000ff })
+  const planeMaterial = new THREE.MeshLambertMaterial({ color: 0xffffff })
   let plane = new THREE.Mesh(planeGeometry, planeMaterial)
   plane.rotation.x = -0.5 * Math.PI
   plane.position.set(0, -7, 0)
@@ -131,7 +131,7 @@ function init() {
   let ambientLight = new THREE.AmbientLight(0x404040) // soft white light
   scene.add(ambientLight)
   // 簡單的 spotlight 照亮物體
-  let spotLight = new THREE.SpotLight(0xffffff, 5, 100)
+  let spotLight = new THREE.SpotLight(0x00ff00, 5, 100)
   spotLight.position.set(-10, 20, 20)
   scene.add(spotLight)
   // let spotHelper = new THREE.SpotLightHelper(spotLight)
