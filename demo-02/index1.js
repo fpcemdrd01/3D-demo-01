@@ -8,7 +8,7 @@ let creeperObj
 class Creeper {
   constructor() {
     // 宣告頭、身體、腳幾何體大小
-    const headGeo = new THREE.BoxGeometry(20, 20, 20)
+    const headGeo = new THREE.BoxGeometry(4, 4, 4)
     const bodyGeo = new THREE.BoxGeometry(4, 8, 2)
     const footGeo = new THREE.BoxGeometry(2, 3, 2)
 
