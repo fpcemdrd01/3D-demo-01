@@ -8,8 +8,8 @@
 
      //load 3d model
         const loader = new GLTFLoader();
-            loader.load( '../assets/model/uploads_files_3217890_Pump_GLB.glb', function ( gltf ) {
-            //loader.load( '../assets/model/uploads_files_2396630_Chainsaw01.gltf', function ( gltf ) {
+            //loader.load( '../assets/model/uploads_files_3217890_Pump_GLB.glb', function ( gltf ) {
+            loader.load( '../assets/model/uploads_files_2396630_Chainsaw01.gltf', function ( gltf ) {
            //loader.load( '../assets/model/untitled_0011.glb', function ( gltf ) {
             scene.add( gltf.scene );
         
