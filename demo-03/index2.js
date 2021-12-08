@@ -41,7 +41,7 @@
         
           // 相機設定
           camera = new THREE.PerspectiveCamera(
-            6, //數值越小: 越拉近物體，物體越大 (zoom in)
+            1, //數值越小: 越拉近物體，物體越大 (zoom in)
             window.innerWidth / window.innerHeight,
             0.1,
             1000
@@ -136,13 +136,13 @@
           scene.add(points)*/
         // 建立物體
           //const button = makeElementObject('button', 75, 20) 
-          const geometry = new THREE.SphereGeometry(0.1) // 幾何體
+          const geometry = new THREE.SphereGeometry(0.02) // 幾何體
           const material = new THREE.MeshPhongMaterial({
           color: 0xFF00FF
           }) // 材質
           cube = new THREE.Mesh(geometry, material) // 建立網格物件
           //cube.rotation.y = -Math.PI * .5 
-          cube.position.set(1, 0, -2)
+          cube.position.set(-0.1, -0.1, 0.2)
           scene.add(cube)
 
           //const loader = new FontLoader();
