@@ -13,11 +13,11 @@ canvas {
   margin-left: 15px;
   margin-top: 15px;
   padding: 2px;
-  width: 60px;
+  width: 40px;
   color: #fff;
-  background: rgba(58, 177, 47, 0.8);
+  background: rgba(25, 26, 25, 0.8);
   border-radius: 0.5em;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.2;
   transition: opacity 0.5s;
   }
@@ -33,7 +33,7 @@ canvas {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  background: rgba(58, 177, 47, 0.8);
+  background: rgba(25, 26, 25, 0.8);
   }
 
   .annotation2 {
@@ -44,11 +44,11 @@ canvas {
     margin-left: 15px;
     margin-top: 15px;
     padding: 2px;
-    width: 90px;
+    width: 50px;
     color: #fff;
-    background: rgba(58, 177, 47, 0.8);
+    background: rgba(25, 26, 25, 0.8);
     border-radius: 0.5em;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.2;
     transition: opacity 0.5s;
     }
@@ -64,7 +64,7 @@ canvas {
     font-size: 16px;
     line-height: 30px;
     text-align: center;
-    background: rgba(58, 177, 47, 0.8);
+    background: rgba(25, 26, 25, 0.8);
     }
   
     .annotation3 {
@@ -75,11 +75,11 @@ canvas {
       margin-left: 15px;
       margin-top: 15px;
       padding: 2px;
-      width: 30px;
+      width: 70px;
       color: #fff;
-      background: rgba(58, 177, 47, 0.8);
+      background: rgba(25, 26, 25, 0.8);
       border-radius: 0.5em;
-      font-size: 12px;
+      font-size: 16px;
       line-height: 1.2;
       transition: opacity 0.5s;
       }
@@ -95,7 +95,7 @@ canvas {
       font-size: 16px;
       line-height: 30px;
       text-align: center;
-      background: rgba(58, 177, 47, 0.8);
+      background: rgba(25, 26, 25, 0.8);
       }
 
   #number1 {

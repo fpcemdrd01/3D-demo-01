@@ -11,11 +11,11 @@
      //load 3d model
         const loader = new GLTFLoader();
         //const loader = new FBXLoader();
-        loader.load( '../assets/model/1216PUMP.glb', function ( gltf ) {
+             loader.load( '../assets/model/11221166blend.glb', function ( gltf ) {
            //loader.load( '../assets/model/uploads_files_2396630_Chainsaw01.gltf', function ( gltf ) {
            //loader.load( '../assets/model/uploads_files_2405461_AG1.FBX', function ( gltf ) {
             //object.scale.multiplyScalar(.1);    // 縮放模型大小
-            
+            //loader.position.z=-1;
             scene.add( gltf.scene ); // 將模型引入three
             
         
@@ -257,7 +257,7 @@
         }
         
         function updateScreenPosition() {
-          const vector1 = new THREE.Vector3(-0.1, 0, 0.5);//Chain saw
+          const vector1 = new THREE.Vector3(-0.02, 0.11, 0.2);//Chain saw
           //const vector2 = new THREE.Vector3(-0.08, 0.2, 0);//ON/OFF Switch
           //const vector3 = new THREE.Vector3(0.09, -0.02, -0.32);//Fuel
           //const vector = new THREE.Vector3(250, 250, 250);
@@ -270,7 +270,7 @@
           //annotation1.style.opacity = spriteBehindObject1 ? 0.25 : 1; //文字轉到背景後呈現透明
 
           //const vector1 = new THREE.Vector3(-0.1, 0, 0.5);//Chain saw
-          const vector2 = new THREE.Vector3(-0.08, 0.2, 0);//ON/OFF Switch
+          const vector2 = new THREE.Vector3(-0.08, 0.4, 0);//ON/OFF Switch
           //const vector3 = new THREE.Vector3(0.09, -0.02, -0.32);//Fuel
           //const vector = new THREE.Vector3(250, 250, 250);
           const canvas2 = renderer.domElement;
@@ -283,7 +283,7 @@
 
           //const vector1 = new THREE.Vector3(-0.1, 0, 0.5);//Chain saw
           //const vector2 = new THREE.Vector3(-0.08, 0.2, 0);//ON/OFF Switch
-          const vector3 = new THREE.Vector3(0.09, -0.02, -0.32);//Fuel
+          const vector3 = new THREE.Vector3(-0.01, 0.1, -0.4);//Fuel
           //const vector = new THREE.Vector3(250, 250, 250);
           const canvas3 = renderer.domElement;
           vector3.project(camera);
