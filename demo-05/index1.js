@@ -11,8 +11,8 @@
      //load 3d model
         const loader = new GLTFLoader();
         //const loader = new FBXLoader();
-        //loader.load( '../assets/model/1216PUMP.glb', function ( gltf ) {
-           loader.load( '../assets/model/uploads_files_2396630_Chainsaw01.gltf', function ( gltf ) {
+        loader.load( '../assets/model/1216PUMP.glb', function ( gltf ) {
+           //loader.load( '../assets/model/uploads_files_2396630_Chainsaw01.gltf', function ( gltf ) {
            //loader.load( '../assets/model/uploads_files_2405461_AG1.FBX', function ( gltf ) {
             //object.scale.multiplyScalar(.1);    // 縮放模型大小
             
